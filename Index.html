@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>COLINT - Colegio Intelectual</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo"><i class="fas fa-graduation-cap"></i> COLINT</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#inicio"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#carreras"><i class="fas fa-user-graduate"></i> Carreras</a></li>
+        <li><a href="#sobre-nosotros"><i class="fas fa-info-circle"></i> Sobre Nosotros</a></li>
+        <li><a href="#costos"><i class="fas fa-table"></i> Costos de Carreras</a></li>
+        <li><a href="#ubicaciones"><i class="fas fa-map-marker-alt"></i> Ubicaciones</a></li>
+        <li><a href="#blog"><i class="fas fa-newspaper"></i> IC Blog</a></li>
+        <li><a href="#galeria-imagenes"><i class="fas fa-images"></i> Galería</a></li>
+        <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+        <li><a href="#login"><i class="fas fa-sign-in-alt"></i> Iniciar Sesión</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+      <!-- Inicio -->
+ <section id="inicio" class="pagina activa">
+  <div class="hero" style="background-image: url('img/4.jpg');">
+    <div class="hero-contenido">
+      <h1>¡Da el siguiente paso en tu educación ahora!</h1>
+      <p>Descubre nuestras carreras con becas, programas innovadores y formación de alto nivel.</p>
+      <a class="btn" href="#carreras" data-pagina="carreras">Descubrir Carreras</a>
+    </div>
+  </div>
+
+<section class="info-inicio">
+  <h2><i class="fas fa-university"></i> ¿Por qué estudiar en COLINT?</h2>
+  <div class="iconos-beneficios">
+    <div class="beneficio">
+      <i class="fas fa-graduation-cap icono"></i>
+      <h4>Educación Becada</h4>
+      <p>Carreras profesionales con apoyo económico.</p>
+    </div>
+    <div class="beneficio">
+      <i class="fas fa-laptop-code icono"></i>
+      <h4>Instalaciones Modernas</h4>
+      <p>Laboratorios y aulas con tecnología de punta.</p>
+    </div>
+    <div class="beneficio">
+      <i class="fas fa-user-tie icono"></i>
+      <h4>Docentes Expertos</h4>
+      <p>Profesores con experiencia real en su campo.</p>
+    </div>
+    <div class="beneficio">
+      <i class="fas fa-globe icono"></i>
+      <h4>Red de Vinculación</h4>
+      <p>Conexiones con empresas y universidades globales.</p>
+    </div>
+    <div class="beneficio">
+      <i class="fas fa-chalkboard-teacher icono"></i>
+      <h4>Apoyo Personalizado</h4>
+      <p>Tutorías y asesorías para tu desarrollo académico.</p>
+    </div>
+    <div class="beneficio">
+      <i class="fas fa-users icono"></i>
+      <h4>Comunidad Estudiantil</h4>
+      <p>Ambiente inclusivo y actividades para todos.</p>
+    </div>
+  </div>
+
+</section>
+
+<section class="ventajas">
+  <h2><i class="fas fa-university"></i> Ventajas de estudiar en COLINT</h2>
+  <div class="lista-ventajas">
+    <div class="ventaja">
+      <i class="fas fa-book-open"></i>
+      <p>Planes de estudio actualizados y con enfoque internacional</p>
+    </div>
+    <div class="ventaja">
+      <i class="fas fa-map-marker-alt"></i>
+      <p>Campus en ubicaciones estratégicas de la ciudad</p>
+    </div>
+    <div class="ventaja">
+      <i class="fas fa-futbol"></i>
+      <p>Actividades extracurriculares, deportes y eventos estudiantiles</p>
+    </div>
+    <div class="ventaja">
+      <i class="fas fa-briefcase"></i>
+      <p>Bolsa de trabajo y convenios con empresas</p>
+    </div>
+    <div class="ventaja">
+      <i class="fas fa-chalkboard-teacher"></i>
+      <p>Docentes altamente calificados con experiencia profesional</p>
+    </div>
+    <div class="ventaja">
+      <i class="fas fa-laptop-code"></i>
+      <p>Infraestructura tecnológica moderna en todos los campus</p>
+    </div>
+  </div>
+</section>
+
+<section id="multimedia" class="pagina activa">
+  <h2><i class="fas fa-photo-video"></i> Multimedia</h2>
+
+  <div class="videos">
+    <h3>Videos Institucionales</h3>
+    <video controls width="480" preload="metadata" poster="img/video1-poster.jpg">
+      <source src="videos/WKU_Flyover.mp4" type="video/mp4" />
+      Tu navegador no soporta el elemento de video.
+    </video>
+
+    <video controls width="480" preload="metadata" poster="img/video2-poster.jpg">
+      <source src="videos/159029-818026300_small.mp4" type="video/mp4" />
+      Tu navegador no soporta el elemento de video.
+    </video>
+  </div>
+
+  <div class="audios">
+    <h3>Audios Institucionales</h3>
+    <audio controls preload="metadata">
+      <source src="audios/WhatsApp Audio 2025-06-22 at 6.40.21 PM.mp4" type="audio/mpeg" />
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <audio controls preload="metadata" autoplay>
+      <source src="audios/diplome-289296.mp3" type="audio/mpeg" />
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+  </div>
+
+
+</section>
+</section>
+
+    <!-- Carreras -->
+    <section id="carreras" class="pagina">
+      <h2>CI cuenta con 12 carreras becadas</h2>
+      <select id="seleccion-carrera">
+        <option value="">Selecciona una carrera</option>
+        <option value="computacion">Ingeniería en Computación</option>
+        <option value="empresas">Administración de Empresas</option>
+        <option value="contaduria">Contaduría Pública</option>
+        <option value="medicina">Medicina</option>
+        <option value="psicologia">Psicología</option>
+        <option value="arquitectura">Arquitectura</option>
+        <option value="derecho">Derecho</option>
+        <option value="civil">Ingeniería Civil</option>
+        <option value="sistemas">Ingeniería en Sistemas</option>
+        <option value="biotecnologia">Biotecnología</option>
+        <option value="gastronomia">Gastronomía</option>
+        <option value="turismo">Turismo</option>
+      </select>
+      <div id="info-carrera" class="info-carrera"></div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="sobre-nosotros" class="pagina">
+  <h2>¡Conoce más sobre nosotros!</h2>
+
+  <div class="contenedor-nosotros">
+    <div class="texto-nosotros">
+      <h3>Bienvenidos a COLINT, el Colegio Intelectual</h3>
+      <p>
+        En COLINT, nos enfocamos en proporcionar una educación integral y de alta calidad
+        que permita a nuestros estudiantes desarrollar su potencial intelectual, emocional
+        y social. Nuestro objetivo es formar líderes y profesionales capacitados que
+        puedan enfrentar los desafíos del siglo XXI con creatividad, innovación y responsabilidad.
+      </p>
+
+      <h4>Nuestra misión</h4>
+      <p>
+        Nuestra misión es impulsar la formación de profesionales íntegros, innovadores y socialmente responsables,
+        a través de una educación de excelencia centrada en la equidad, la sostenibilidad y el desarrollo humano.
+        Nuestra universidad busca transformar realidades construyendo un mundo con oportunidades para todas y todos, 
+        mediante el conocimiento, la investigación aplicada y el compromiso con la comunidad.
+        Queremos que nuestros egresados sean capaces de analizar problemas complejos,
+        desarrollar soluciones innovadoras y trabajar en equipo para lograr objetivos comunes.
+      </p>
+
+      <h4>Nuestros valores</h4>
+      <ul>
+        <li><strong>Excelencia académica:</strong> Nos comprometemos a ofrecer programas educativos de alta calidad.</li>
+        <li><strong>Innovación y creatividad:</strong> Fomentamos la innovación en nuestros estudiantes y comunidad.</li>
+        <li><strong>Responsabilidad social:</strong> Contribuimos al desarrollo sostenible y a una mejor calidad de vida.</li>
+        <li><strong>Diversidad e inclusión:</strong> Creamos un ambiente académico respetuoso y acogedor para todos.</li>
+      </ul>
+
+      <h4>Nuestra visión</h4>
+      <p>
+        Nuestra visión es consolidarnos como una universidad líder en América Latina, un referente nacional y
+        Europeo en educación, reconocida por su excelencia académica, innovación y compromiso con la 
+        responsabilidad social. Aspiramos a ser un espacio de pensamiento crítico, inclusión y creatividad, 
+        donde cada estudiante desarrolle su potencial para convertirse en líder y agente de cambio en su 
+        comunidad y en el mundo. Distinguirnos por nuestro impacto transformador en la sociedad, nuestro 
+        enfoque interdisciplinario y nuestra capacidad para generar soluciones a los desafíos globales en un 
+        entorno en constante evolución.
+        Queremos que nuestros egresados sean líderes y agentes de cambio en sus comunidades y en el mundo.
+      </p>
+
+    </div>
+
+    <div class="imagen-nosotros">
+      <img src="img/5.jpg" alt="Estudiante COLINT feliz" />
+    </div>
+
+  </div>
+</section>
+
+<section id="galeria-imagenes" class="pagina">
+  <h2><i class="fas fa-images"></i> Galería COLINT</h2>
+  <div class="galeria">
+    <div class="hover-container tam1 delay-1 hover-zoom">
+      <img src="img/ejemplo1.jpg" class="imagen-galeria" alt="Areas Verdes" />
+    </div>
+    <div class="hover-container tam2 delay-2 hover-rotate">
+      <img src="img/ejemplo2.jpg" class="imagen-galeria" alt="Cafeteria" />
+    </div>
+    <div class="hover-container tam3 delay-3 hover-skew">
+      <img src="img/ejemplo3.jpg" class="imagen-galeria" alt="Laboratorio de Computo" />
+    </div>
+    <div class="hover-container tam4 delay-4 hover-shadow">
+      <img src="img/ejemplo4.jpg" class="imagen-galeria" alt="Biblioteca" />
+    </div>
+    <div class="hover-container tam5 delay-5 hover-bright">
+      <img src="img/ejemplo5.jpg" class="imagen-galeria" alt="Computación" />
+    </div>
+    <div class="hover-container tam6 delay-6 hover-slide">
+      <img src="img/ejemplo6.jpg" class="imagen-galeria" alt="Area de deportes" />
+    </div>
+    <div class="hover-container tam7 delay-7 hover-fade">
+      <img src="img/ejemplo7.jpg" class="imagen-galeria" alt="Salones" />
+    </div>
+    <div class="hover-container tam8 delay-8 hover-scale">
+      <img src="img/ejemplo8.jpg" class="imagen-galeria" alt="Area de descanso" />
+    </div>
+  </div>
+
+  <!-- Modal de imagen con navegación -->
+  <div id="modal-img" class="modal">
+    <span class="cerrar">&times;</span>
+    <span class="nav prev">&#10094;</span>
+    <img class="modal-contenido fade-zoom" id="img-ampliada">
+    <span class="nav next">&#10095;</span>
+    <div id="texto-modal"></div>
+  </div>
+</section>
+
+
+    <!-- Ubicaciones -->
+<section id="ubicaciones" class="pagina">
+  <h2>¡Ubícanos fácilmente!</h2>
+  <div class="contenedor-ubicacion">
+    <a href="https://maps.app.goo.gl/AKeKTbna37oP27BL9" target="_blank">
+      <img src="img/mapa.jpg" alt="Ubicación COLINT" class="imagen-ubicacion">
+    </a>
+    <p>Haz clic en el mapa para abrir la ubicación en Google Maps.</p>
+  </div>
+
+  <ul>
+    <li>Polanco - Planta Central</li>
+    <li>Condesa - Campus Norte</li>
+    <li>Roma - Campus Sur</li>
+  </ul>
+
+  <!-- Datos de contacto -->
+  <div class="datos-contacto" style="margin-top: 20px;">
+    <p><strong>Correo:</strong> contacto@etac.mx</p>
+    <p><strong>Teléfono:</strong> 55-1234-5678</p>
+    <p><strong>Horario:</strong> Lun-Vie 12:00–22:00 / Sab-Dom 8:00–24:00</p>
+  </div>
+
+  <!-- Botón para enviar correo -->
+  <button id="btn-email" class="btn">Enviar correo</button>
+
+  <!-- Redes sociales ETAC -->
+  <div class="redes-sociales-etac" style="margin-top: 20px;">
+    <a href="https://facebook.com/ETAC" target="_blank" aria-label="Facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://twitter.com/ETAC" target="_blank" aria-label="Twitter" title="Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="https://instagram.com/ETAC" target="_blank" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://linkedin.com/school/etac" target="_blank" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+</section>
+
+<script>
+  document.getElementById('btn-email').addEventListener('click', () => {
+    window.location.href = 'mailto:contacto@etac.mx?subject=Consulta%20desde%20la%20página&body=Hola,%20quiero%20información...';
+  });
+</script>
+
+   <!-- Blog -->
+<section id="blog" class="pagina">
+  <h2>IC Blog - Noticias y Artículos</h2>
+  <p>¡Entérate de las novedades, boletines, exámenes o horarios!</p>
+
+  <div id="blog-noticias" class="blog-noticias">
+    <!-- Aquí se cargarán las noticias con JS -->
+  </div>
+</section>
+    <!-- Contacto -->
+<section id="contacto" class="pagina">
+  <h2><i class="fas fa-envelope"></i> Contáctanos</h2>  
+
+  <form id="form-contacto" class="form-contacto" onsubmit="return validarFormulario();">
+    <div class="grupo-form">
+      <label for="nombre">Nombre completo</label>
+      <input type="text" id="nombre" required />
+    </div>
+
+    <div class="grupo-form">
+      <label for="correo">Correo electrónico</label>
+      <input type="email" id="correo" required />
+    </div>
+
+    <div class="grupo-form">
+      <label for="telefono">Teléfono</label>
+      <input type="tel" id="telefono" required />
+    </div>
+
+    <div class="grupo-form">
+      <label for="edad">Edad</label>
+      <input type="number" id="edad" min="15" max="100" required />
+    </div>
+
+    <div class="grupo-form">
+      <label for="fecha">Fecha</label>
+      <input type="date" id="fecha" required />
+    </div>
+
+    <div class="grupo-form">
+      <label for="hora">Hora</label>
+      <input type="time" id="hora" required />
+    </div>
+
+    <div class="grupo-form">
+      <label for="genero">Género</label>
+      <select id="genero" required>
+        <option value="">Selecciona</option>
+        <option value="femenino">Femenino</option>
+        <option value="masculino">Masculino</option>
+        <option value="otro">Otro</option>
+      </select>
+    </div>
+
+    <div class="grupo-form">
+      <label for="asunto">Asunto</label>
+      <input type="text" id="asunto" required />
+    </div>
+
+    <div class="grupo-form">
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" rows="4" required></textarea>
+    </div>
+
+    <div class="grupo-form">
+      <label for="ciudad">Ciudad</label>
+      <input type="text" id="ciudad" required />
+    </div>
+
+    <div class="grupo-form">
+      <label for="estado">Estado</label>
+      <input type="text" id="estado" required />
+    </div>
+
+    <div class="grupo-form">
+      <label for="interes">Área de interés</label>
+      <select id="interes" required>
+        <option value="">Selecciona una opción</option>
+        <option value="carreras">Carreras</option>
+        <option value="becas">Becas</option>
+        <option value="admision">Admisión</option>
+      </select>
+    </div>
+
+    <div class="grupo-form">
+      <label><input type="checkbox" id="terminos" required /> Acepto los términos y condiciones</label>
+    </div>
+
+    <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
+  </form>
+
+
+</section>
+
+<section id="costos" class="pagina">
+  <h2><i class="fas fa-table"></i> Costos por Carrera y Semestre</h2>
+  <p>Haz clic en los encabezados para ordenar los datos.</p>
+
+  <!-- Tabla de costos -->
+  <div class="tabla-responsive">
+    <table id="tabla-costos" data-orden="asc">
+      <thead>
+        <tr>
+          <th onclick="ordenarTabla(0)">Carrera</th>
+          <th onclick="ordenarTabla(1)">Semestre</th>
+          <th onclick="ordenarTabla(2)">Inscripción</th>
+          <th onclick="ordenarTabla(3)">Mensualidad</th>
+          <th onclick="ordenarTabla(4)">Total Semestral</th>
+        </tr>
+      </thead>
+
+      <tbody>
+                <!-- Ingeniería en Computación -->
+        <tr data-carrera="computacion"><td>Ingeniería en Computación</td><td>1°</td><td>$2,000</td><td>$3,000</td><td>$20,000</td></tr>
+        <tr data-carrera="computacion"><td>Ingeniería en Computación</td><td>2°</td><td>$0</td><td>$3,000</td><td>$18,000</td></tr>
+        <tr data-carrera="computacion"><td>Ingeniería en Computación</td><td>3°</td><td>$0</td><td>$3,000</td><td>$18,000</td></tr>
+        <tr data-carrera="computacion"><td>Ingeniería en Computación</td><td>4°</td><td>$0</td><td>$3,000</td><td>$18,000</td></tr>
+        <tr data-carrera="computacion"><td>Ingeniería en Computación</td><td>5°</td><td>$0</td><td>$3,000</td><td>$18,000</td></tr>
+        <tr data-carrera="computacion"><td>Ingeniería en Computación</td><td>6°</td><td>$0</td><td>$3,000</td><td>$18,000</td></tr>
+
+        <!-- Administración de Empresas -->
+        <tr data-carrera="empresas"><td>Administración de Empresas</td><td>1°</td><td>$1,800</td><td>$2,800</td><td>$18,800</td></tr>
+        <tr data-carrera="empresas"><td>Administración de Empresas</td><td>2°</td><td>$0</td><td>$2,800</td><td>$16,800</td></tr>
+        <tr data-carrera="empresas"><td>Administración de Empresas</td><td>3°</td><td>$0</td><td>$2,800</td><td>$16,800</td></tr>
+        <tr data-carrera="empresas"><td>Administración de Empresas</td><td>4°</td><td>$0</td><td>$2,800</td><td>$16,800</td></tr>
+        <tr data-carrera="empresas"><td>Administración de Empresas</td><td>5°</td><td>$0</td><td>$2,800</td><td>$16,800</td></tr>
+        <tr data-carrera="empresas"><td>Administración de Empresas</td><td>6°</td><td>$0</td><td>$2,800</td><td>$16,800</td></tr>
+
+        <!-- Contaduría Pública -->
+        <tr data-carrera="contaduria"><td>Contaduría Pública</td><td>1°</td><td>$1,900</td><td>$2,900</td><td>$19,400</td></tr>
+        <tr data-carrera="contaduria"><td>Contaduría Pública</td><td>2°</td><td>$0</td><td>$2,900</td><td>$17,400</td></tr>
+        <tr data-carrera="contaduria"><td>Contaduría Pública</td><td>3°</td><td>$0</td><td>$2,900</td><td>$17,400</td></tr>
+        <tr data-carrera="contaduria"><td>Contaduría Pública</td><td>4°</td><td>$0</td><td>$2,900</td><td>$17,400</td></tr>
+        <tr data-carrera="contaduria"><td>Contaduría Pública</td><td>5°</td><td>$0</td><td>$2,900</td><td>$17,400</td></tr>
+        <tr data-carrera="contaduria"><td>Contaduría Pública</td><td>6°</td><td>$0</td><td>$2,900</td><td>$17,400</td></tr>
+
+        <!-- Medicina -->
+        <tr data-carrera="medicina"><td>Medicina</td><td>1°</td><td>$2,500</td><td>$4,500</td><td>$29,500</td></tr>
+        <tr data-carrera="medicina"><td>Medicina</td><td>2°</td><td>$0</td><td>$4,500</td><td>$27,000</td></tr>
+        <tr data-carrera="medicina"><td>Medicina</td><td>3°</td><td>$0</td><td>$4,500</td><td>$27,000</td></tr>
+        <tr data-carrera="medicina"><td>Medicina</td><td>4°</td><td>$0</td><td>$4,500</td><td>$27,000</td></tr>
+        <tr data-carrera="medicina"><td>Medicina</td><td>5°</td><td>$0</td><td>$4,500</td><td>$27,000</td></tr>
+        <tr data-carrera="medicina"><td>Medicina</td><td>6°</td><td>$0</td><td>$4,500</td><td>$27,000</td></tr>
+
+        <!-- Psicología -->
+        <tr data-carrera="psicologia"><td>Psicología</td><td>1°</td><td>$1,700</td><td>$2,700</td><td>$17,200</td></tr>
+        <tr data-carrera="psicologia"><td>Psicología</td><td>2°</td><td>$0</td><td>$2,700</td><td>$15,000</td></tr>
+        <tr data-carrera="psicologia"><td>Psicología</td><td>3°</td><td>$0</td><td>$2,700</td><td>$15,000</td></tr>
+        <tr data-carrera="psicologia"><td>Psicología</td><td>4°</td><td>$0</td><td>$2,700</td><td>$15,000</td></tr>
+        <tr data-carrera="psicologia"><td>Psicología</td><td>5°</td><td>$0</td><td>$2,700</td><td>$15,000</td></tr>
+        <tr data-carrera="psicologia"><td>Psicología</td><td>6°</td><td>$0</td><td>$2,700</td><td>$15,000</td></tr>
+
+        <!-- Arquitectura -->
+        <tr data-carrera="arquitectura"><td>Arquitectura</td><td>1°</td><td>$2,100</td><td>$3,200</td><td>$21,300</td></tr>
+        <tr data-carrera="arquitectura"><td>Arquitectura</td><td>2°</td><td>$0</td><td>$3,200</td><td>$19,200</td></tr>
+        <tr data-carrera="arquitectura"><td>Arquitectura</td><td>3°</td><td>$0</td><td>$3,200</td><td>$19,200</td></tr>
+        <tr data-carrera="arquitectura"><td>Arquitectura</td><td>4°</td><td>$0</td><td>$3,200</td><td>$19,200</td></tr>
+        <tr data-carrera="arquitectura"><td>Arquitectura</td><td>5°</td><td>$0</td><td>$3,200</td><td>$19,200</td></tr>
+        <tr data-carrera="arquitectura"><td>Arquitectura</td><td>6°</td><td>$0</td><td>$3,200</td><td>$19,200</td></tr>
+
+        <!-- Derecho -->
+        <tr data-carrera="derecho"><td>Derecho</td><td>1°</td><td>$1,800</td><td>$2,800</td><td>$18,800</td></tr>
+        <tr data-carrera="derecho"><td>Derecho</td><td>2°</td><td>$0</td><td>$2,800</td><td>$16,800</td></tr>
+        <tr data-carrera="derecho"><td>Derecho</td><td>3°</td><td>$0</td><td>$2,800</td><td>$16,800</td></tr>
+        <tr data-carrera="derecho"><td>Derecho</td><td>4°</td><td>$0</td><td>$2,800</td><td>$16,800</td></tr>
+        <tr data-carrera="derecho"><td>Derecho</td><td>5°</td><td>$0</td><td>$2,800</td><td>$16,800</td></tr>
+        <tr data-carrera="derecho"><td>Derecho</td><td>6°</td><td>$0</td><td>$2,800</td><td>$16,800</td></tr>
+
+        <!-- Ingeniería Civil -->
+        <tr data-carrera="civil"><td>Ingeniería Civil</td><td>1°</td><td>$2,000</td><td>$3,000</td><td>$20,000</td></tr>
+        <tr data-carrera="civil"><td>Ingeniería Civil</td><td>2°</td><td>$0</td><td>$3,000</td><td>$18,000</td></tr>
+        <tr data-carrera="civil"><td>Ingeniería Civil</td><td>3°</td><td>$0</td><td>$3,000</td><td>$18,000</td></tr>
+        <tr data-carrera="civil"><td>Ingeniería Civil</td><td>4°</td><td>$0</td><td>$3,000</td><td>$18,000</td></tr>
+        <tr data-carrera="civil"><td>Ingeniería Civil</td><td>5°</td><td>$0</td><td>$3,000</td><td>$18,000</td></tr>
+        <tr data-carrera="civil"><td>Ingeniería Civil</td><td>6°</td><td>$0</td><td>$3,000</td><td>$18,000</td></tr>
+
+        <!-- Ingeniería en Sistemas -->
+        <tr data-carrera="sistemas"><td>Ingeniería en Sistemas</td><td>1°</td><td>$2,100</td><td>$3,100</td><td>$20,700</td></tr>
+        <tr data-carrera="sistemas"><td>Ingeniería en Sistemas</td><td>2°</td><td>$0</td><td>$3,100</td><td>$18,600</td></tr>
+        <tr data-carrera="sistemas"><td>Ingeniería en Sistemas</td><td>3°</td><td>$0</td><td>$3,100</td><td>$18,600</td></tr>
+        <tr data-carrera="sistemas"><td>Ingeniería en Sistemas</td><td>4°</td><td>$0</td><td>$3,100</td><td>$18,600</td></tr>
+        <tr data-carrera="sistemas"><td>Ingeniería en Sistemas</td><td>5°</td><td>$0</td><td>$3,100</td><td>$18,600</td></tr>
+        <tr data-carrera="sistemas"><td>Ingeniería en Sistemas</td><td>6°</td><td>$0</td><td>$3,100</td><td>$18,600</td></tr>
+
+        <!-- Biotecnología -->
+        <tr data-carrera="biotecnologia"><td>Biotecnología</td><td>1°</td><td>$2,200</td><td>$3,200</td><td>$21,600</td></tr>
+        <tr data-carrera="biotecnologia"><td>Biotecnología</td><td>2°</td><td>$0</td><td>$3,200</td><td>$19,200</td></tr>
+        <tr data-carrera="biotecnologia"><td>Biotecnología</td><td>3°</td><td>$0</td><td>$3,200</td><td>$19,200</td></tr>
+        <tr data-carrera="biotecnologia"><td>Biotecnología</td><td>4°</td><td>$0</td><td>$3,200</td><td>$19,200</td></tr>
+        <tr data-carrera="biotecnologia"><td>Biotecnología</td><td>5°</td><td>$0</td><td>$3,200</td><td>$19,200</td></tr>
+        <tr data-carrera="biotecnologia"><td>Biotecnología</td><td>6°</td><td>$0</td><td>$3,200</td><td>$19,200</td></tr>
+
+        <!-- Gastronomía -->
+        <tr data-carrera="gastronomia"><td>Gastronomía</td><td>1°</td><td>$1,700</td><td>$2,700</td><td>$17,200</td></tr>
+        <tr data-carrera="gastronomia"><td>Gastronomía</td><td>2°</td><td>$0</td><td>$2,700</td><td>$15,000</td></tr>
+        <tr data-carrera="gastronomia"><td>Gastronomía</td><td>3°</td><td>$0</td><td>$2,700</td><td>$15,000</td></tr>
+        <tr data-carrera="gastronomia"><td>Gastronomía</td><td>4°</td><td>$0</td><td>$2,700</td><td>$15,000</td></tr>
+        <tr data-carrera="gastronomia"><td>Gastronomía</td><td>5°</td><td>$0</td><td>$2,700</td><td>$15,000</td></tr>
+        <tr data-carrera="gastronomia"><td>Gastronomía</td><td>6°</td><td>$0</td><td>$2,700</td><td>$15,000</td></tr>
+
+        <!-- Turismo -->
+        <tr data-carrera="turismo"><td>Turismo</td><td>1°</td><td>$1,800</td><td>$2,800</td><td>$18,800</td></tr>
+        <tr data-carrera="turismo"><td>Turismo</td><td>2°</td><td>$0</td><td>$2,800</td><td>$16,800</td></tr>
+        <tr data-carrera="turismo"><td>Turismo</td><td>3°</td><td>$0</td><td>$2,800</td><td>$16,800</td></tr>
+        <tr data-carrera="turismo"><td>Turismo</td><td>4°</td><td>$0</td><td>$2,800</td><td>$16,800</td></tr>
+        <tr data-carrera="turismo"><td>Turismo</td><td>5°</td><td>$0</td><td>$2,800</td><td>$16,800</td></tr>
+        <tr data-carrera="turismo"><td>Turismo</td><td>6°</td><td>$0</td><td>$2,800</td><td>$16,800</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+    <!-- Login -->
+  <section id="login" class="pagina">
+  <h2><i class="fas fa-sign-in-alt"></i> Inicio de Sesión</h2>
+  <form id="form-login" class="login-form" onsubmit="return false;">
+    <label for="usuario">Usuario</label>
+    <input type="text" id="usuario" placeholder="Ingrese su usuario" required />
+    <label for="password">Contraseña</label>
+    <input type="password" id="password" placeholder="Ingrese su contraseña" required />
+    <button type="submit">Ingresar</button>
+  </form>
+  <p id="mensaje-login" style="color: red; margin-top: 10px;"></p>
+</section>
+
+  </main>
+
+<footer>
+  <p>© Copyright 2025. Todos los derechos reservados COLINT Universidades</p>
+  <p><a href="#">FAQ</a> | <a href="https://www.eld.edu.mx/aviso-de-privacidad/" target="_blank" rel="noopener noreferrer">Política de privacidad</a></p>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
